@@ -1,0 +1,49 @@
+
+.main
+{
+    background-color: #0D0D0D ;
+
+    /* height: 100vh; */
+    padding-top: 90px;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+.main h1
+{
+    font-family: "Bebas Neue", sans-serif;
+    color: #9B2819 ;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+.my-card
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.my-card img
+{
+    border-radius: 30px;
+}
+
+.inner h5
+{
+
+    color: white;
+    font-family: "Roboto", sans-serif;
+
+    font-size: 21px;
+
+}
+
+/*  */
+
+/* color: #9B2819 ; */
+
+/* font-family: "Roboto", sans-serif; */

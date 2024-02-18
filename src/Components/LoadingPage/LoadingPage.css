@@ -1,0 +1,17 @@
+
+
+.loading{
+
+    background-color: #0D0D0D ;
+    height: 100vh;
+}
+
+/* color: #9B2819 ; */
+
+.loading i
+{
+    color: #9B2819 ;
+
+    font-size: 60px;
+    margin-bottom: 90px;
+}

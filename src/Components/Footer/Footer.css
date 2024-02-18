@@ -1,0 +1,52 @@
+
+
+footer
+{
+    background-color: #0D0D0D ;
+    padding: 30px;
+    border-top: 1px solid #9B2819 ;
+}
+
+.brand-name
+{
+    color: #9B2819 ;
+
+    font-size: 70px ;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.social
+{
+    list-style-type: none;
+    display: flex;
+    margin-right: 40px;
+    justify-content: center;
+    
+}
+
+.social li
+{
+    color: white;
+    padding-left: 30px;
+    font-size: 20px;
+    transition: all0 0.3s;
+}
+
+.social li:hover
+{
+
+    color: #ca2712;
+}
+
+
+.container h5
+{
+
+    color: #9B2819;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
