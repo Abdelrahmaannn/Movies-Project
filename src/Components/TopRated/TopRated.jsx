@@ -22,7 +22,7 @@ async getTopRated() {
 
         // Update state using callback function
         this.setState({ allMovies: finalResult }, () => {
-            console.log(this.state.allMovies);
+            // console.log(this.state.allMovies);
         });
     } catch (error) {
         console.error("Error fetching popular movies:", error);

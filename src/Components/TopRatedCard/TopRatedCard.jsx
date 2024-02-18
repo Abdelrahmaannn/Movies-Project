@@ -7,7 +7,7 @@ class TopRatedCard extends Component {
 
     render() {
 
-        const  {title, vote_average, poster_path}  = this.props.movies;
+        const  {name, vote_average, poster_path}  = this.props.movies;
     
         // AllMovies  vote_average
     
@@ -21,7 +21,7 @@ class TopRatedCard extends Component {
               <div className="my-card ">
                 <img className="w-75" src={"https://image.tmdb.org/t/p/w500/" + poster_path} alt="" />
               </div>
-              <h5 className="pt-3">{ title }</h5>
+              <h5 className="pt-3">{ name }</h5>
               <h5>Rating : { vote_average}</h5>
             </div>
           </>
