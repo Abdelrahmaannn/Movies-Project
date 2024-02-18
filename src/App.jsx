@@ -12,7 +12,7 @@ import Layout from './Components/Layout/Layout';
 
 
 
- const browswrRouter = createBrowserRouter( [ { path:"/", element: <Layout/> , children:[
+ const browswrRouter = createBrowserRouter( [ { path:"/popular", element: <Layout/> , children:[
    { index : true , element : <Popular/>  },
    { path:"popular", element : <Popular/>  },
    { path: "toprated" , element: <TopRated/> },
