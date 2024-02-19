@@ -16,7 +16,7 @@ const browswrRouter = createBrowserRouter([
       { path: "popular", element: <Popular /> },
       { path: "toprated", element: <TopRated /> },
       { path: "tvshows", element: <TvShows /> },
-      { path: "*", element: <ErrorPage /> },
+      { path: " * ", element: <ErrorPage /> },
     ],
   },
 ]);
