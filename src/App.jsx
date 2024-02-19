@@ -7,19 +7,12 @@ import TopRated from "./Components/TopRated/TopRated";
 import TvShows from "./Components/TvShows/TVShows";
 import Layout from "./Components/Layout/Layout";
 
-const browswrRouter = createBrowserRouter([
-  {
-    path: "/",
-    element: <Layout />,
-    children: [
-      { index: true, element: <Popular /> },
-      { path: "popular", element: <Popular /> },
-      { path: "toprated", element: <TopRated /> },
-      { path: "tvshows", element: <TvShows /> },
-      { path: " * ", element: <ErrorPage /> },
-    ],
-  },
-]);
+const browswrRouter = createBrowserRouter( [ { path:"/", element: <Layout/> , children:[ { index : true , element : <Popular/>  },  { path:"popular", element : <Popular/>  },
+  { path: "toprated" , element: <TopRated/> },
+  { path : "tvshows" , element : <TvShows/> },
+  { path :"*" , element : <ErrorPage/> }
+  
+ ]  } ]  )
 
 function App() {
   return (
