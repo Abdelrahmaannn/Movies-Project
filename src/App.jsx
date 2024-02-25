@@ -18,6 +18,8 @@ function App() {
   return (
     <>
       <RouterProvider router={browswrRouter} />
+
+      {/* <LoadingPage/> */}
     </>
   );
 }
